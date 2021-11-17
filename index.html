@@ -22,7 +22,7 @@
     <section>
         <section class="left-half">
 
-            <form id="destinationForm" onsubmit="return false">
+            <form id="destinationForm" name='destinationForm' onsubmit="return false">
                 <div class="form-group">
                     <label for="DestinationName">Destination name</label>
                     <input required minlength="2" type="text" class="form-control" placeholder="Enter the name of the destination">
@@ -43,7 +43,7 @@
                 <textarea name="Description" class="textArea" rows="5" placeholder="Where is it located?"></textarea>
                 <!-- </div> -->
 
-                <button type="submit" class="AddToList">Add to list</button>
+                <button type="button" class="AddToList">Add to list</button>
             </form>
         </section>
     
@@ -51,20 +51,7 @@
             <h2>Enter destination details</h2>
             <section class="container">
                 <section class="row">
-                    <div class="card " style="width: 15rem;">
-                        <img class="card-img-top" src="https://cavchronicle.org/wp-content/uploads/2018/03/top-travel-destination-for-visas-900x504.jpg" alt="Card image cap">
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <h6 class="card-title">Card title</h6>
-                          <p class="card-text"></p>
-                          <div class="buttons">
-                            <a id="Edit" class="btn btn-warning">Edit</a>
-                            <a id="Remove" class="btn btn-danger">Remove</a>  
-                          </div>
-                         </div>
-                      </div>
                 </section>
-               
             </section>
             
         </section>
